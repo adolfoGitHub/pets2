@@ -1,0 +1,13 @@
+{
+    "name": "agonzale/328/pets2",
+    "authors": [
+      {
+        "name": "Adolfo Gonzalez",
+        "email": "agonzalez15@mail.greenriver.edu"
+      }
+    ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+
+}
