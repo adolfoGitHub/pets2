@@ -4,7 +4,12 @@
       {
         "name": "Adolfo Gonzalez",
         "email": "agonzalez15@mail.greenriver.edu"
+      },
+      {
+        "name": "Keith Carlson",
+        "email": "kcarlson@mail.greenriver.edu"
       }
+
     ],
   "require": {
     "bcosca/fatfree-core": "dev-master"
