@@ -1,6 +1,5 @@
 <?php
-//start sessions
-session_start();
+
 
 //turn on error reporting
 ini_set('display_errors', 1);
@@ -8,6 +7,8 @@ error_reporting(E_ALL);
 
 //require autoload
 require_once('vendor/autoload.php');
+//start sessions
+session_start();
 
 //create an instance of the BASE CLASS
 $f3 = Base::instance();
@@ -27,7 +28,7 @@ $f3->route('GET /', function()
 
 //define a route with a parameter
 
-$f3->route('GET /@pets2', function($f3,$params)
+$f3->route('GET /@animal', function($f3,$params)
 {
     //print_r($params);
     $validPets = ['dog', 'cat', 'fish', 'snake','bird', 'owl', 'mouse'];
